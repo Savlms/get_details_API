@@ -10,13 +10,13 @@ const port = 3000;
 // creating an endpoint that returns your details
 app.get('/my-details', (req, res) => {
     const myDetails = {
-        name: 'Marachukwu Nweke /n',
-        address: 'No 1 Abba Crescent Achara Layout, Enugu /n',
-        phone: '08101650031 /n',
-        email: 'valmarnas@gmail.com /n',
-        height: '5 ft 7 /n',
-        complexion: 'fair /n',
-        personality: 'Advocate INJT /n',
+        name: 'Marachukwu Nweke',
+        address: 'No 1 Abba Crescent Achara Layout, Enugu',
+        phone: '08101650031',
+        email: 'valmarnas@gmail.com',
+        height: '5 ft 7',
+        complexion: 'fair',
+        personality: 'Advocate INJT',
         temperament: 'Melanchony'
     };
 
