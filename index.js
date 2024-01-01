@@ -1,6 +1,8 @@
 // importing the required
 
 const express = require('express');
+const userRoutes = require('./user');
+const postRoutes = require('./post')
 
 // creating an express application
 
@@ -23,7 +25,8 @@ app.get('/my-details', (req, res) => {
     // sending the details as a JSON response
     res.json(myDetails);
 });
-
+app.use(userRoutes);
+app.use(postRoutes);
 // starting the server
 app.listen(port, () => {
     console.log(`server is running at http://localhost:${port}/my-details`);

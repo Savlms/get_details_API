@@ -12,3 +12,5 @@ app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}/my-details`);
 });
  This starts your server and listens for requests on port 3000. The console.log line just prints a message to the console, telling you that your server is running and where you can access it.
+
+The addition of userRoutes and postRoutes is to enable me test postman for the first time ever
